@@ -1,0 +1,92 @@
+#contacts-wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 200px auto 0 auto;
+    padding-bottom: 200px;
+}
+
+.contact-content-wrapper {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#contacts-wrapper h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacts-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.photo {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.contacts {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts h2 {
+    line-height: 32px;
+    font-size: 32px;
+}
+
+.contacts h3 {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.telegram,.phone,.email {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-contact{
+    width: 20px;
+    height: 20px;
+    transition: filter 0.5s;
+}
+
+.icon-contact.black {
+    filter: invert(100%);
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .contact-content-wrapper {
+        max-width: 550px;
+    }
+
+    .contacts-content {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-content-wrapper {
+        max-width: 576px;
+    }
+
+    .contacts-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacts h2 {
+        text-align: center;
+    }
+    
+    .telegram,.phone,.email {
+        margin: auto;
+    }
+}

@@ -1,0 +1,78 @@
+#profile-wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 150px;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-wrapper h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#profile-wrapper strong {
+    color: rgb(22, 82, 224);
+}
+
+#profile-wrapper h3 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#profile-wrapper p {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.buttons-cv {
+    margin: 50px auto 0 auto;
+    display: flex;
+    gap: 50px;
+}
+
+.buttons-cv a {
+    color: #000;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #profile-wrapper {
+        max-width: 1199px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #profile-wrapper {
+        max-width: 991px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #profile-wrapper {
+        max-width: 767px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 576px) {
+    #profile-wrapper {
+        max-width: 576px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    #profile-wrapper {
+        max-width: 389px;
+    }
+
+    .buttons-cv {
+        flex-direction: column;
+    }
+}

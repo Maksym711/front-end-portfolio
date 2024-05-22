@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d665aed.css",
+    "main.js": "/static/js/main.9ccf27b3.js",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.faacec1c82ca10ed3b76.ttf",
+    "static/media/Maksym_Dovbyk_frontend_developer.pdf": "/static/media/Maksym_Dovbyk_frontend_developer.ce5b18b9ea32ea6a4d51.pdf",
+    "static/media/photo.png": "/static/media/photo.7b13334e2edb42ae92fa.png",
+    "static/media/weather_wish_icon.png": "/static/media/weather_wish_icon.39a4e3f9a18c4e96151d.png",
+    "static/media/github_icon.svg": "/static/media/github_icon.837803143c3c56e33d7661b5f6e41485.svg",
+    "static/media/logo_icon.svg": "/static/media/logo_icon.ad2207271407307fac1a6818d0d41c52.svg",
+    "static/media/sun_icon.svg": "/static/media/sun_icon.9abac4b0500e309b346737f755e40939.svg",
+    "index.html": "/index.html",
+    "static/media/email_icon.svg": "/static/media/email_icon.54c1133383391108f6205f9039c1aee9.svg",
+    "static/media/phone_icon.svg": "/static/media/phone_icon.0c2f1bb23875edefd53ba425152d9750.svg",
+    "static/media/telegram_icon.svg": "/static/media/telegram_icon.a5557e39f3f842c985a182bb60b6951f.svg",
+    "static/media/moon_icon.svg": "/static/media/moon_icon.d737d7365e6809abf5a69f8bb2dde7a8.svg",
+    "main.6d665aed.css.map": "/static/css/main.6d665aed.css.map",
+    "main.9ccf27b3.js.map": "/static/js/main.9ccf27b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d665aed.css",
+    "static/js/main.9ccf27b3.js"
+  ]
+}

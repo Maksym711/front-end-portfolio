@@ -1,0 +1,28 @@
+#projects-wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 150px;
+}
+
+#projects-wrapper h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projects-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .projects-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+} */
+

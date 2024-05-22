@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import ThemeContext from './helper/ThemeContext';
+import Header from './Header/Header';
+import Main from './Main/Main';
 
 function App() {
+
+  const [isThemeLight, setIsThemeLight] = useState(() => {
+    const storedTheme = localStorage.getItem("themeLight")
+    return storedTheme === null ? true : JSON.parse(storedTheme)
+  })
+
+  const switchTheme = () => {
+    setIsThemeLight(prevTheme => {
+      const newTheme = !prevTheme
+      localStorage.setItem("themeLight", JSON.stringify(newTheme))
+      return newTheme
+    })
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={{isThemeLight, switchTheme}}>
+      <div className={isThemeLight ? 'app light' : 'app black'}>
+        <Header />
+        <Main />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
